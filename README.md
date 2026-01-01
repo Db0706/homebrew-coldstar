@@ -145,7 +145,7 @@ The USB drive is not a signing device. It is encrypted storage only.
 
 At no point does any powered device permanently store a usable private key.
 
-📖 **See [ARCHITECTURE.md](ARCHITECTURE.md) for detailed technical architecture and system design.**
+📖 **See [ARCHITECTURE.md](documentation/ARCHITECTURE.md) for detailed technical architecture and system design.**
 
 ---
 
@@ -432,7 +432,7 @@ RAM Address: 0x7F3A8000     RAM Address: 0x7F3A8000
 - Cold boot attacks (if RAM is physically extracted within seconds)
 - Physical tampering with CPU/RAM hardware
 
-📖 **See [SECURE_SIGNER_README.md](SECURE_SIGNER_README.md) for detailed information on the Rust-based secure signer implementation.**
+📖 **See [SECURE_SIGNER_README.md](documentation/SECURE_SIGNER_README.md) for detailed information on the Rust-based secure signer implementation.**
 
 ### Key Differences from Hardware Wallets
 
@@ -484,7 +484,7 @@ Any USB drive can be:
 
 There are no serial numbers, proprietary chips, or vendor lock-in.
 
-📖 **See [whitepaper.md](whitepaper.md) for the complete technical whitepaper and theoretical foundations.**
+📖 **See [whitepaper.md](documentation/whitepaper.md) for the complete technical whitepaper and theoretical foundations.**
 
 ---
 
@@ -556,9 +556,9 @@ USB Drive
 * **Performance Optimized** - Only runs when needed
 
 📖 **Documentation:**
-- [FIRST_BOOT_PROCESS.md](FIRST_BOOT_PROCESS.md) - Detailed technical specification
-- [FIRST_BOOT_IMPLEMENTATION.md](FIRST_BOOT_IMPLEMENTATION.md) - Implementation details and code walkthrough
-- [FIRST_BOOT_QUICKSTART.md](FIRST_BOOT_QUICKSTART.md) - Quick start guide for users
+- [FIRST_BOOT_PROCESS.md](documentation/FIRST_BOOT_PROCESS.md) - Detailed technical specification
+- [FIRST_BOOT_IMPLEMENTATION.md](documentation/FIRST_BOOT_IMPLEMENTATION.md) - Implementation details and code walkthrough
+- [FIRST_BOOT_QUICKSTART.md](documentation/FIRST_BOOT_QUICKSTART.md) - Quick start guide for users
 
 ---
 
@@ -617,13 +617,13 @@ Coldstar is designed to be:
 Security claims are meant to be verifiable, not trusted.
 
 📖 **Integration Documentation:**
-- [INTEGRATION_GUIDE.md](INTEGRATION_GUIDE.md) - Guide for integrating Coldstar into your projects
-- [INTEGRATION_STATUS.md](INTEGRATION_STATUS.md) - Current integration status and compatibility
-- [RUST_INTEGRATION_COMPLETE.md](RUST_INTEGRATION_COMPLETE.md) - Rust signer integration details
+- [INTEGRATION_GUIDE.md](documentation/INTEGRATION_GUIDE.md) - Guide for integrating Coldstar into your projects
+- [INTEGRATION_STATUS.md](documentation/INTEGRATION_STATUS.md) - Current integration status and compatibility
+- [RUST_INTEGRATION_COMPLETE.md](documentation/RUST_INTEGRATION_COMPLETE.md) - Rust signer integration details
 
 📖 **Project Status:**
-- [PROJECT_COMPLETE.md](PROJECT_COMPLETE.md) - Project completion status and milestones
-- [DELIVERABLES.md](DELIVERABLES.md) - Project deliverables and roadmap
+- [PROJECT_COMPLETE.md](documentation/PROJECT_COMPLETE.md) - Project completion status and milestones
+- [DELIVERABLES.md](documentation/DELIVERABLES.md) - Project deliverables and roadmap
 
 ---
 
